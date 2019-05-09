@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="新規 オーディオ" max_length="40" name="u_audio_12" type="audio"/>
+        <element label="新規 True/False" max_length="40" name="u_boolean_39" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="新規 選択肢" max_length="40" name="u_choice_13" type="string">
+            <choice>
+                <element inactive_on_update="false" label="選択肢 1" sequence="0" value="選択肢 1"/>
+                <element inactive_on_update="false" label="選択肢 2" sequence="1" value="選択肢 2"/>
+                <element inactive_on_update="false" label="選択肢 3" sequence="2" value="選択肢 3"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="新規 通貨" max_length="20" name="u_currency_14" type="currency"/>
+        <element label="新規 データ構造" max_length="800" name="u_data_structure_15" type="data_structure"/>
+        <element label="新規 10 進数" max_length="15" name="u_decimal_18" type="decimal"/>
+        <element label="新規 期限日" max_length="40" name="u_due_date_19" type="due_date"/>
+        <element label="新規 フィールド名" max_length="80" name="u_field_name_21" type="field_name"/>
+        <element label="新規 ファイルの添付" max_length="40" name="u_file_attachment_22" type="file_attachment"/>
+        <element label="新規 浮動小数点数" max_length="40" name="u_float_23" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="新規 日付" max_length="40" name="u_glide_date_16" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="新規 日付/時刻" max_length="40" name="u_glide_date_time_17" type="glide_date_time"/>
+        <element label="新規 期間" max_length="40" name="u_glide_duration_20" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="新規 リスト" max_length="1024" name="u_glide_list_29" type="glide_list"/>
+        <element label="新規 時刻" max_length="40" name="u_glide_time_37" type="glide_time"/>
+        <element label="新規 HTML" max_length="65536" name="u_html_24" type="html"/>
+        <element label="新規 アイコン" max_length="100" name="u_icon_25" type="icon"/>
+        <element label="新規 整数" max_length="40" name="u_integer_26" type="integer"/>
+        <element label="新規 IP アドレス (検証済み IPV4、IPV6)" max_length="40" name="u_ip_addr_27" type="ip_addr"/>
+        <element attributes="edge_encryption_enabled=true" label="新規 ジャーナル" max_length="4000" name="u_journal_28" type="journal"/>
+        <element label="新規 長" max_length="40" name="u_longint_30" type="longint"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="新規 価格" max_length="20" name="u_price_32" type="price"/>
+        <element label="新規 参照" max_length="32" name="u_reference_33" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="新規 名前/値ペア" max_length="4000" name="u_simple_name_values_31" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true" label="新規 文字列" max_length="40" name="u_string_34" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="新規 文字列 (完全な UTF-8)" max_length="255" name="u_string_full_utf8_35" type="string_full_utf8"/>
+        <element attributes="base_start=true" label="新規 テーブル名" max_length="80" name="u_table_name_36" type="table_name"/>
+        <element label="新規 翻訳されたテキスト" max_length="40" name="u_translated_text_38" type="translated_text"/>
+        <element attributes="edge_encryption_enabled=true" label="新規 URL" max_length="1024" name="u_url_40" type="url"/>
+        <element attributes="is_multi_text=true,preview_first=true,preview_selector=true" label="新規 Wiki" max_length="65536" name="u_wiki_text_41" type="wiki_text"/>
+    </element>
+</database>
